@@ -51,6 +51,7 @@ export default function CountryPage({ country, parity }) {
   )
 
   return (
+    
     <div className="flex flex-col items-center justify-center min-h-screen py-10 bg-gray-50">
       <div className="fixed inset-0 overflow-hidden opacity-75 bg-[#f8fafb]">
         <Image
@@ -146,14 +147,15 @@ export default function CountryPage({ country, parity }) {
               className="py-4 px-6 text-lg w-full bg-black text-white rounded-md hover:bg-gray-900"
               onClick={() =>
                 alert(
-                  `its yours for USD ${isParityEnabled ? parityPrice : 500}`
+                  `its yours for USD ${isParityEnabled ? parityPrice : 1500}`
                 )
               }
             >
-              Buy now
+              Comprar agora
             </button>
           </div>
         </section>
+        
       </main>
     </div>
   )
