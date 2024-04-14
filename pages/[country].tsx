@@ -62,7 +62,7 @@ export default function CountryPage({ country, parity }) {
         />
       </div>
       <main className="flex flex-col items-center flex-1 px-4 sm:px-20 text-center z-10 sm:pt-10">
-        <h1 className="text-3xl sm:text-5xl font-bold">Power parity pricing</h1>
+        <h1 className="text-3xl sm:text-5xl font-bold">My React project</h1>
         <p className="mt-4 sm:text-xl text-lg text-gray-700">
           Show localized pricing based on location headers
         </p>
